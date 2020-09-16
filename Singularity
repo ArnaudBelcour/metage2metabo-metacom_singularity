@@ -4,7 +4,7 @@ From: ubuntu:18.04
 %labels
     Maintainer Belcour A.
     Version v1.3.1
-    Description m2m Singularity recipe
+    Description Metage2Metabo metacom Singularity recipe
 
 %environment
      export PYTHONIOENCODING=utf8
