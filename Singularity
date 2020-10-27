@@ -1,5 +1,5 @@
 Bootstrap: docker
-From: ubuntu:18.04
+From: ubuntu:20.04
 
 %labels
     Maintainer Belcour A.
@@ -14,8 +14,8 @@ From: ubuntu:18.04
      DEBIAN_FRONTEND=noninteractive apt-get install -y \
      curl \
      git \
-     python3.6-dev \
-     python3.6-distutils ;\
+     python3.8-dev \
+     python3.8-distutils ;\
      apt-get clean ;\
      apt-get purge ;\
      curl https://bootstrap.pypa.io/get-pip.py | python3;\
