@@ -3,7 +3,7 @@ From: ubuntu:20.04
 
 %labels
     Maintainer Belcour A.
-    Version v1.3.4
+    Version v1.4.0
     Description Metage2Metabo metacom Singularity recipe
 
 %environment
@@ -20,4 +20,4 @@ From: ubuntu:20.04
      apt-get purge ;\
      curl https://bootstrap.pypa.io/get-pip.py | python3;\
      pip install padmet clyngor-with-clingo clyngor pandas pipdeptree==0.13.2;\
-     pip install Metage2Metabo==1.3.5
+     pip install Metage2Metabo==1.4.0
